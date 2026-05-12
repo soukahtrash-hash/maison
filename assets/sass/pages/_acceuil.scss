@@ -1,0 +1,28 @@
+.acceuil {
+    &-header {
+        background: $color-primary;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        height: 300px;
+    }
+
+    &-about {
+        background: rgb(205, 197, 197);
+        padding: 2rem;
+        margin-top: 2rem;
+
+        &-list {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        &-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+    }
+}
