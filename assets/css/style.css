@@ -1,0 +1,22 @@
+.nav {
+  background: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  padding: 0 3rem;
+  border-radius: 5rem;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 5rem;
+}
+.nav-link:hover {
+  background: white;
+  color: #007bff;
+}
+
+/*# sourceMappingURL=style.css.map */

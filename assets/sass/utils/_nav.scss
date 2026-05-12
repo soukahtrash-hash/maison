@@ -1,0 +1,22 @@
+.nav {
+    background: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding: 0 3rem;
+    border-radius: 5rem;
+
+    &-link {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+        margin: 0 1rem;
+        border-radius: 5rem;
+
+        &:hover {
+            background: white;
+            color: $color-primary;
+        }
+    }
+}
