@@ -31,6 +31,15 @@ body {
   color: #007bff;
 }
 
+.footer {
+  height: 100px;
+  background: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 .services {
   background: #dcc818;
   display: flex;
@@ -58,6 +67,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.acceuil-header {
+  background: #007bff;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  height: 300px;
+}
+.acceuil-about {
+  background: rgb(205, 197, 197);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.acceuil-about-list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.acceuil-about-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
