@@ -33,8 +33,31 @@ body {
 
 .services {
   background: #dcc818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
-  padding: 8rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  gap: 3rem;
+}
+.services-droite {
+  width: 50%;
+  height: 400px;
+  background: #007bff;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-gauche {
+  width: 50%;
+  height: 400px;
+  background: #007bff;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
