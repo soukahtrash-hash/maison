@@ -1,5 +1,29 @@
 .services {
     background: $color-secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
-    padding: 8rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: 3rem;
+
+    &-droite {
+        width: 50%;
+        height: 400px;
+        background: $color-primary;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-gauche {
+        width: 50%;
+        height: 400px;
+        background: $color-primary;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
